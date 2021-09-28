@@ -23,7 +23,7 @@ const ContactList = ({ contacts, onClick }) => (
 );
 
 ContactList.propTypes = {
-  contacts: PropTypes.func.isRequired,
+  contacts: PropTypes.array.isRequired,
   onClick: PropTypes.func.isRequired,
 };
 

@@ -58,7 +58,7 @@ export default function App() {
   };
 
   const changeFilter = (e) => {
-    setFilter({ filter: e.currentTarget.value });
+    setFilter(e.currentTarget.value);
   };
 
   const deleteContacts = (contactId) => {
